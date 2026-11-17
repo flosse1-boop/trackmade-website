@@ -57,7 +57,7 @@ HOME_DE = """<main class="wrap">
   <p>Wasser, Training, Gewohnheiten, Abos, To-dos, Essensplan – oder dein ganz eigenes Modul. Deine Widgets ergeben zusammen ein Bild von deinem Alltag.</p>
   <span class="badge soon">Bald im App Store</span>
 </section>
-<section class="screen"><img src="img/screen-home.png" alt="Trackmade Startseite mit Widgets"></section>
+<section class="screen"><img src="img/screen-home.jpg" alt="Trackmade Startseite mit Widgets"></section>
 <section class="features">
   <div class="feature"><b><span class="dot"></span>Alles anpassbar</b><span>Fertige Vorlagen oder eigene Module aus Bausteinen. Du entscheidest, was du trackst.</span></div>
   <div class="feature"><b><span class="dot"></span>Widgets überall</b><span>In der App und auf dem Home-Bildschirm, mit Knöpfen zum direkten Eintragen.</span></div>
@@ -65,7 +65,7 @@ HOME_DE = """<main class="wrap">
   <div class="feature"><b><span class="dot"></span>Einmal kaufen</b><span>Kostenlos starten. Premium einmalig, ohne Abo, mit 7 Tagen gratis zum Testen.</span></div>
 </section>
 </main>"""
-HOME_EN = HOME_DE.replace('img/', '../img/') \
+HOME_EN = HOME_DE.replace('img/', '../img/').replace('screen-home.jpg', 'screen-home-en.jpg') \
   .replace("Track, was dir wichtig ist.<br>Genau so, wie du willst.", "Track what matters to you.<br>Exactly your way.") \
   .replace("Wasser, Training, Gewohnheiten, Abos, To-dos, Essensplan – oder dein ganz eigenes Modul. Deine Widgets ergeben zusammen ein Bild von deinem Alltag.",
            "Water, workouts, habits, subscriptions, to-dos, meal plans – or a module that’s all your own. Together, your widgets form a picture of your day.") \
