@@ -45,8 +45,9 @@ header .wrap { display: flex; align-items: center; justify-content: space-betwee
   background: var(--lime); color: var(--ink); font-weight: 700; text-decoration: none;
 }
 .badge.soon { opacity: 0.9; }
+.hero p.platform { font-size: 14px; margin-top: 12px; color: var(--muted); }
 .screen { text-align: center; padding: 28px 0 8px; }
-.screen img { width: min(360px, 88%); border-radius: 34px; border: 8px solid #000; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25); }
+.screen img { width: min(340px, 86%); height: auto; filter: drop-shadow(0 24px 40px rgba(0, 0, 0, 0.35)); }
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; padding: 36px 0; }
 .feature { background: var(--card); border-radius: 20px; padding: 20px; }
 .feature b { display: block; font-size: 18px; margin-bottom: 4px; }
