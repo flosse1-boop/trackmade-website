@@ -100,7 +100,12 @@ PRIV_DE = f"""<main class="wrap doc">
 <p>Wenn du die iCloud-Sicherung einschaltest, legt Trackmade einmal am Tag eine Kopie deiner Daten in deinem eigenen iCloud Drive ab (Ordner „Trackmade“). Die Speicherung erfolgt bei Apple unter deinem Apple Account; wir haben darauf keinen Zugriff. Für die Verarbeitung durch Apple gilt die <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a>. Du kannst die Sicherung jederzeit in der App ausschalten und die Sicherungen in der Dateien-App löschen. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (von dir gewünschte Funktion).</p>
 
 <h2>4. Apple Health</h2>
-<p>Für das Modul „Schritte &amp; Bewegung“ liest Trackmade mit deiner Erlaubnis Schritte, Strecke, Stockwerke und aktive Kalorien aus Apple Health. Trackmade schreibt nichts in Apple Health. Die Gesundheitsdaten werden nur auf deinem Gerät angezeigt, nicht gespeichert, nicht weitergegeben und nicht für Werbung genutzt. Du kannst den Zugriff jederzeit in den iPhone-Einstellungen unter „Health“ widerrufen. Rechtsgrundlage: deine Einwilligung (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO).</p>
+<p>Mit deiner Erlaubnis liest Trackmade folgende Werte aus Apple Health:</p>
+<ul>
+<li>für das Modul „Schritte &amp; Bewegung“: Schritte, Strecke, Stockwerke, aktive Kalorien und Trainingsminuten,</li>
+<li>für das Modul „Körpergewicht“: dein Körpergewicht, zum Beispiel von einer mit Apple Health verbundenen Waage. Das Gewicht wird außerdem genutzt, um ohne Apple Watch die Kalorien beim Gehen zu schätzen.</li>
+</ul>
+<p>Trackmade schreibt nichts in Apple Health. Die Gesundheitsdaten werden nur auf deinem Gerät angezeigt, nicht weitergegeben und nicht für Werbung genutzt. Damit die Widgets auf dem Home-Bildschirm auch bei gesperrtem iPhone etwas anzeigen können, legt Trackmade die zuletzt gelesenen Werte zusätzlich in seinem eigenen Speicher auf deinem Gerät ab. Diese Kopie kommt nicht in die iCloud-Sicherung von Trackmade. Gewichte, die du selbst in Trackmade einträgst, sind normale Einträge wie in jedem anderen Modul (siehe Punkt 2). Du kannst den Zugriff jederzeit in den iPhone-Einstellungen unter „Health“ widerrufen. Rechtsgrundlage: deine Einwilligung (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO).</p>
 
 <h2>5. Kamera und Fotos</h2>
 <p>Für Foto-Felder kannst du mit deiner Erlaubnis Fotos aufnehmen oder aus deiner Mediathek wählen. Die Fotos werden nur in Trackmade auf deinem Gerät gespeichert (und, falls eingeschaltet, in deiner iCloud-Sicherung).</p>
@@ -151,7 +156,12 @@ PRIV_EN = f"""<main class="wrap doc">
 <p>If you turn on iCloud backup, Trackmade saves a copy of your data to your own iCloud Drive once a day (folder “Trackmade”). It is stored by Apple under your Apple Account; we have no access to it. <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a> applies. You can turn the backup off in the app at any time and delete backups in the Files app. Legal basis: Art. 6(1)(b) GDPR (a feature you requested).</p>
 
 <h2>4. Apple Health</h2>
-<p>For the “Steps &amp; Activity” module, Trackmade reads steps, distance, floors and active calories from Apple Health with your permission. Trackmade never writes to Apple Health. Health data is only displayed on your device; it is not stored, shared or used for advertising. You can revoke access at any time in your iPhone settings under “Health”. Legal basis: your consent (Art. 6(1)(a) and Art. 9(2)(a) GDPR).</p>
+<p>With your permission, Trackmade reads the following from Apple Health:</p>
+<ul>
+<li>for the “Steps &amp; Activity” module: steps, distance, floors, active calories and exercise minutes,</li>
+<li>for the “Body Weight” module: your body weight, for example from a scale connected to Apple Health. Your weight is also used to estimate walking calories if you don’t have an Apple Watch.</li>
+</ul>
+<p>Trackmade never writes to Apple Health. Health data is only displayed on your device; it is not shared or used for advertising. So that Home Screen widgets can show something while your iPhone is locked, Trackmade also keeps the most recently read values in its own storage on your device. This copy is not included in Trackmade’s iCloud backup. Weights you enter yourself in Trackmade are regular entries like in any other module (see section 2). You can revoke access at any time in your iPhone settings under “Health”. Legal basis: your consent (Art. 6(1)(a) and Art. 9(2)(a) GDPR).</p>
 
 <h2>5. Camera and photos</h2>
 <p>For photo fields, you can take photos or pick them from your library with your permission. Photos are stored only within Trackmade on your device (and in your iCloud backup, if enabled).</p>
